@@ -1,0 +1,23 @@
+h1,
+a,
+p {
+  font-family: sans-serif;
+  color: darkslategray;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: cornflowerblue;
+  background-color: gray;
+}
+
+a:active {
+  color: yellow;
+}
