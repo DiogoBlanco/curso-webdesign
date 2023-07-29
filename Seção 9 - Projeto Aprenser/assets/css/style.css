@@ -1,0 +1,185 @@
+:root {
+  --primary-color: #fed001;
+}
+
+html {
+  font: 400 62.5% "Inter", sans-serif;
+}
+
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
+nav a {
+  color: inherit;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.6rem 4.6rem;
+  color: inherit;
+}
+
+.wrapper-container-dark {
+  background-color: #2a2a2a;
+  color: #fafafa;
+}
+
+.wrapper-container-light {
+  background-color: #fafafa;
+}
+
+.wrapper-container-dark2 {
+  background-color: #003464;
+  color: #fafafa;
+}
+
+.container {
+  max-width: 127.6rem;
+  margin: auto;
+}
+
+.section-title {
+  padding: 7rem 0;
+  text-align: center;
+  margin: 0;
+}
+
+.section-btn {
+  margin: 7rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.header_nav a {
+  padding: 0.75em 1.15em;
+  border: solid 1px;
+  text-decoration: none;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.header_nav a:hover {
+  background-color: #000;
+}
+
+.wrapper-container-hero {
+  background-image: linear-gradient(transparent, yellow);
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20rem;
+}
+
+.hero-title {
+  margin-bottom: 4rem;
+}
+
+.courses {
+  text-align: center;
+}
+
+.course_card {
+  flex: 1;
+}
+
+.course_card img {
+  display: block;
+  width: 100%;
+}
+
+.courses-container {
+  display: flex;
+  text-align: left;
+  gap: 2rem;
+}
+
+.course_card h3 {
+  font-size: 2.4rem;
+}
+
+.course_card p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.courses_card_content {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  border-top: transparent;
+}
+
+.escola {
+  display: flex;
+  gap: 6rem;
+  padding-top: 6rem;
+}
+
+.escola-title {
+  font-size: 3.2rem;
+}
+
+.escola p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.contatos-title {
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 4rem;
+}
+
+iframe {
+  margin: 6rem auto 2rem auto;
+}
+
+address {
+  text-align: right;
+  font-size: 1.8rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 5rem;
+}
